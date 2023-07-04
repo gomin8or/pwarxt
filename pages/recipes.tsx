@@ -8,13 +8,12 @@ const Recipes = () => (
 
 			<div className='mt-2'>
 				<p className='text-zinc-600 dark:text-zinc-400'>
-					Like any good recipe, we appreciate community offerings to cultivate a
-					delicous dish.
+					돈과 배짱만 있으면 돼. 따로 재료가 뭐가 필요하나. 인생 한방인데 파산 밖에 더 하겠어?
 				</p>
 			</div>
 		</Section>
 
-		<Section>
+		{/* <Section>
 			<h3 className='font-medium'>Thanks to</h3>
 
 			<ul className='list-disc space-y-2 px-6 py-2'>
@@ -32,7 +31,7 @@ const Recipes = () => (
 					for lovely icons
 				</li>
 			</ul>
-		</Section>
+		</Section> */}
 	</Page>
 )
 
